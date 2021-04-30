@@ -1,6 +1,6 @@
 /*
  * https://programmers.co.kr/learn/courses/30/lessons/42883
- * level : / 큰수 만들기
+ * level : 2 / 큰수 만들기
  */ 
 
 #include <string>

@@ -1,6 +1,6 @@
 /* 
- *
- * 
+ * https://programmers.co.kr/learn/courses/30/lessons/42898?language=cpp
+ * level : 3 / 등굣길
  */
 
 #include <string>
