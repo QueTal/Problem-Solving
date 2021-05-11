@@ -10,7 +10,7 @@
  *     ListNode *next;
  *     ListNode() : val(0), next(nullptr) {}
  *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}œ
  * };
  */
 /**
