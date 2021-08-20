@@ -17,21 +17,16 @@
 class Solution {
 public:
     int maxProduct(TreeNode* root) {
-        long sum = getSum(root);
-        long answer = 0;
-        for(auto h : history){
-            long target = ((sum - h) * h) % (int)(1e9+7);
-            answer = answer > target ? answer : target;
-        }
-        return answer;
+        total = getSum(root);
+        getSum(root);
+        return answer %(int)(1e9+7);
     }
     long getSum(TreeNode* root){
-        if (root == nullptr) return root->val;
-        if (root->left) root->val += getSum(root->left);
-        if (root->right) root->val += getSum(root->right);
-        history.emplace_back(root->val);
-        return root->val;
+        if (root==nullptr)  return 0;
+        long sum = root->val + getSum(root->left) + getSum(root->right);
+        answer = max(answer, sum*(total-sum));
+        return sum;
     }
 private: 
-    vector<long> history;
+    long total = 0, answer = 0;
 };
