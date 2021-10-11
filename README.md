@@ -1,7 +1,5 @@
 ## 문제 풀이 사이트
 
----
-
 ### 1. Baekjoon Online Judge(BOJ)
 
 [![image](https://user-images.githubusercontent.com/60914379/136810512-f48aea86-8614-4ac2-8dfe-318f163e42fb.png)
@@ -11,6 +9,8 @@
 -   문제 수가 많아서 유형별로 연습하기에도 적절한 것 같습니다.
 
 ### 2. Leetcode
+
+[![logo](./img/logo.svg)](https://www.leetcode.com)
 
 -   문제가 직관적이고 자체 해설이나 discuss 활성화 되어있고 Daily Challenge 로 문제가 추천되는 점이 좋았습니다.
 -   또한 문제에 대한 유저의 반응으로 문제의 질을 엿볼 수 있다는 점이 좋아 문제풀이를 하고 있습니다.
@@ -23,12 +23,8 @@
 
 ## Solved.ac
 
----
-
 https://solved.ac/profile/rok_marine
 
 ## Leetcode
-
----
 
 https://leetcode.com/_KIBEOM/
