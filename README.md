@@ -23,7 +23,7 @@
 
 ## Solved.ac
 
-[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj={rok_marine})](https://solved.ac/{rok_marine})
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=rok_marine)](https://solved.ac/rok_marine)
 
 https://solved.ac/profile/rok_marine
 
