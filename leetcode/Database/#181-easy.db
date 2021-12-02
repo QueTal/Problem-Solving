@@ -1,0 +1,6 @@
+# 181. Employees Earning More Than Their Managers
+# https://leetcode.com/problems/employees-earning-more-than-their-managers/
+
+SELECT a.name as Employee
+FROM Employee a left join Employee b on a.managerId = b.id
+WHERE a.salary > b.salary
